@@ -13,10 +13,11 @@ Array.from(casilleros).forEach((casillero, i) => {
         // console.log(casillero, i + 1) 
         casillero.innerHTML = x;
         casillas[i] = x;
-        console.log(casillas);
 
-        setTimeout(()=> {
-            
-        }, 500)
+        setTimeout(movimientoMaquina, 500)
     })
 })
+
+const movimientoMaquina = () => {
+    console.log('Maquina')
+}
